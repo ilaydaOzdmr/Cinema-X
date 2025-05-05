@@ -1,0 +1,76 @@
+﻿body {
+}
+.admin-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-group.inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .form-group.inline > div {
+        width: 48%;
+    }
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .btn-submit:hover {
+        background-color: #0056b3;
+    }
+.gridview td, .gridview th {
+    color: black !important;
+}
+
+/* GridView butonları içindeki yazı rengini siyah yap */
+.gridview .btn-delete {
+    color: black !important;
+}

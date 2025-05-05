@@ -1,0 +1,169 @@
+﻿body {
+}
+.seat-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c2f33;
+    color: white;
+    border-radius: 10px;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+    .legend-box.available {
+        background-color: white;
+    }
+
+    .legend-box.taken {
+        background-color: red;
+    }
+
+    .legend-box.selected {
+        background-color: green;
+    }
+
+.seats-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #343a40;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+    .seat.taken {
+        background-color: red;
+        cursor: not-allowed;
+    }
+
+    .seat.selected {
+        background-color: green;
+        color: white;
+    }
+
+.promotion-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .promotion-container select {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+.action-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .action-buttons button {
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: #007E74;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .action-buttons button:hover {
+            background-color: #005f56;
+        }
+.back-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-back-home {
+    color: #007E74;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+    .btn-back-home:hover {
+        text-decoration: underline;
+    }
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn {
+    margin: 10px 0;
+}
+
+.radio-label {
+    color: black;
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Taken seats (Alınmış Koltuklar) */
+.taken {
+    background-color: gray;
+    cursor: not-allowed;
+}

@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Cinema_X.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title></title>
+
+    <%-- Bootstrap CSS --%>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%-- DataTable CSS --%>
+    <link href="datatables/css/dataTables.dataTables.min.css" rel="stylesheet" />
+    <%-- FontAwesome CSS --%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+    <%-- JQUERY --%>
+    <script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <%-- Popper JS --%>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <%-- Bootstrap JS --%>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <link href="css/customStyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+
+        <%-- Header Class--%>
+        <div class="header">
+            <div class="logo">
+                <a href="HomePage.aspx">
+                    <img src="imgs/cinema-x%20(white).png" alt="Cinema-X Logo" />
+                </a>
+            </div>
+
+            <%-- Search --%>
+            <div class="search-bar">
+                <asp:TextBox ID="txtMasterSearch" runat="server" CssClass="form-control" placeholder="Search Movie..." Style="width: 300px;" />
+                <asp:Button ID="btnMasterSearch" runat="server" Text="Search" CssClass="btnu" OnClick="btnMasterSearch_Click">
+                </asp:Button>
+            </div>
+
+
+            <%-- User Panel --%>
+            <div class="user-panel">
+                <%-- Login Panel --%>
+                <a href="UserLogin.aspx" class="btn btn-success">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </a>
+
+                <%-- My Tickets --%>
+                <a href="PaymentPage.aspx" class="btn btn-info">
+                    <i class="fas fa-ticket-alt"></i> My Tickets
+                </a>
+            </div>
+        </div>
+
+        <%--   Content Placeholder --%>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <%--   Admin Login --%>
+        <footer>
+            <a href="AdminLogin.aspx" class="admin-login">Admin Login</a>
+        </footer>
+    </form>
+</body>
+</html>

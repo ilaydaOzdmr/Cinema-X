@@ -1,0 +1,73 @@
+﻿/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Bilet Konteyneri */
+.ticket-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2c2f33;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Başlık */
+.ticket-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .ticket-header h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color:dimgrey;
+    }
+
+/* Bilet İçeriği: Flex düzeni ile yan yana hizalama */
+.ticket-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* Yazıları biletin bitişine hizalamak için flex-start */
+    gap: 20px; /* Resim ve yazılar arasında daha küçük boşluk */
+}
+
+/* Bilet Görseli: Resmi biraz küçülttük */
+.ticket-image img {
+    width: 150px; /* Daha küçük boyut */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Bilet Bilgileri */
+.ticket-info {
+    flex-grow: 1; /* Yazının genişlemesini sağlamak */
+    text-align: left; /* Yazıları sola hizalamak */
+}
+
+    .ticket-info h3 {
+        font-size: 20px;
+        color:lightslategray;
+        margin-bottom: 20px;
+    }
+
+    .ticket-info ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .ticket-info li {
+        margin-bottom: 10px;
+    }
+    .ticket-info .btn{
+        background-color:green;
+    }

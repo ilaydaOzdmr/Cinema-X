@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|c:\\users\\monster\\onedrive\\desktop\\220709058-\u0130laydapekar\u00F6zdemir\\cinema_x\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|solutionrelative:homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\showticket.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|solutionrelative:showticket.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|solutionrelative:webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{56AB8D0C-643F-4BC8-B142-EB953FECB5A0}|Cinema_X.csproj|solutionrelative:homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 548,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "HomePage.aspx.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\HomePage.aspx.cs",
+              "RelativeToolTip": "HomePage.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:17:36.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\HomePage.aspx",
+              "RelativeDocumentMoniker": "HomePage.aspx",
+              "ToolTip": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\HomePage.aspx",
+              "RelativeToolTip": "HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-03T14:33:25.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WebForm1.aspx",
+              "ToolTip": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\WebForm1.aspx",
+              "RelativeToolTip": "WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-01T21:55:15.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowTicket.aspx",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\ShowTicket.aspx",
+              "RelativeDocumentMoniker": "ShowTicket.aspx",
+              "ToolTip": "C:\\Users\\MONSTER\\OneDrive\\Desktop\\220709058-\u0130laydaPekar\u00D6zdemir\\Cinema_X\\ShowTicket.aspx",
+              "RelativeToolTip": "ShowTicket.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-01T21:54:32.416Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
